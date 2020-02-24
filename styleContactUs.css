@@ -1,0 +1,116 @@
+body {
+  margin: none;
+  font-family: 'Chivo',cursive;
+  font-size: 1em;
+}
+
+section{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 4em;
+  color: #8A2000;
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 80px;
+}
+
+.allForm{
+  margin: 0 auto 100px;
+  padding: 50px;
+  background-color: #D9A173;
+  border-radius: 10px;
+  width: 45%;
+}
+
+
+form label {
+  color: #8A2000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+input {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+  height: 40px;
+  margin-bottom: 30px;
+  outline: none;
+  width: 95%;
+}
+
+textarea {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+  height: 200px;
+  outline: none;
+  width: 95%;
+}
+
+#submitButton {
+  background-color: #8A2000;
+  border: 1px solid #8A2000;
+  border-radius: 25px;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 auto 0;
+  padding: 15px 30px;
+  text-align: center;
+  transition: all 200ms ease;
+  word-spacing: 6px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+
+#submitButton:hover {
+  background-color: transparent;
+  border: 1.5px solid #8A2000;
+  color: #8A2000;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 15px 30px;
+}
+
+#myImage {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width:80%;
+}
+
+@media (max-width:640px){
+  .allForm {
+    width:80%;
+    padding: 10px ;
+  }
+}
+
+@media (max-width:768px){
+  .allForm {
+    width:80%;
+    padding: 10px;
+  }
+}
+
+@media (max-width:1024px){
+  .allForm {
+    width:80%;
+    padding: 10px;
+  }
+}
+
+@media (max-width:1024px){
+  form label{
+    font-size: 1.2em;
+  }
+}
